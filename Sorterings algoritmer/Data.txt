@@ -1,0 +1,284 @@
+Bs
+1000
+ 9ms
+ 7ms
+ 6ms
+ 7ms
+ 7ms
+ 7ms
+ 6ms
+ 6ms
+ Medel: 6ms
+2000
+ 28ms
+ 28ms
+ 29ms
+ 29ms
+ 33ms
+ 28ms
+ 28ms
+ 29ms
+ Medel: 29ms
+4000
+ 126ms
+ 115ms
+ 124ms
+ 115ms
+ 121ms
+ 133ms
+ 121ms
+ 125ms
+ Medel: 122ms
+8000
+ 490ms
+ 498ms
+ 498ms
+ 495ms
+ 484ms
+ 504ms
+ 493ms
+ 492ms
+ Medel: 494ms
+16000
+ 1991ms
+ 1963ms
+ 2008ms
+ 1971ms
+ 1972ms
+ 2014ms
+ 1983ms
+ 2007ms
+ Medel: 1988ms
+32000
+ 8125ms
+ 8246ms
+ 8121ms
+ 8303ms
+ 8103ms
+ 9779ms
+ 9241ms
+ 8102ms
+ Medel: 8502ms
+64000
+ 32553ms
+ 32472ms
+ 32324ms
+ 32231ms
+ 32998ms
+ 32540ms
+ 32558ms
+ 32645ms
+ Medel: 32540ms
+Ss
+1000
+ 3ms
+ 2ms
+ 4ms
+ 2ms
+ 2ms
+ 3ms
+ 2ms
+ 3ms
+ Medel: 2ms
+2000
+ 10ms
+ 11ms
+ 11ms
+ 10ms
+ 10ms
+ 11ms
+ 11ms
+ 11ms
+ Medel: 10ms
+4000
+ 51ms
+ 46ms
+ 43ms
+ 42ms
+ 49ms
+ 44ms
+ 43ms
+ 45ms
+ Medel: 45ms
+8000
+ 176ms
+ 180ms
+ 178ms
+ 180ms
+ 176ms
+ 171ms
+ 184ms
+ 182ms
+ Medel: 178ms
+16000
+ 708ms
+ 695ms
+ 721ms
+ 690ms
+ 728ms
+ 722ms
+ 715ms
+ 694ms
+ Medel: 709ms
+32000
+ 2845ms
+ 2884ms
+ 2844ms
+ 2839ms
+ 2822ms
+ 2890ms
+ 2854ms
+ 2842ms
+ Medel: 2852ms
+64000
+ 11415ms
+ 11427ms
+ 11477ms
+ 11759ms
+ 12663ms
+ 11615ms
+ 11433ms
+ 11802ms
+ Medel: 11698ms
+Ms
+1000
+ 12ms
+ 2ms
+ 2ms
+ 2ms
+ 1ms
+ 2ms
+ 3ms
+ 1ms
+ Medel: 3ms
+2000
+ 3ms
+ 5ms
+ 4ms
+ 7ms
+ 4ms
+ 4ms
+ 6ms
+ 4ms
+ Medel: 4ms
+4000
+ 8ms
+ 6ms
+ 7ms
+ 6ms
+ 7ms
+ 7ms
+ 6ms
+ 7ms
+ Medel: 6ms
+8000
+ 16ms
+ 16ms
+ 17ms
+ 16ms
+ 16ms
+ 15ms
+ 23ms
+ 25ms
+ Medel: 18ms
+16000
+ 40ms
+ 38ms
+ 38ms
+ 46ms
+ 56ms
+ 43ms
+ 45ms
+ 38ms
+ Medel: 43ms
+32000
+ 101ms
+ 98ms
+ 111ms
+ 90ms
+ 105ms
+ 90ms
+ 97ms
+ 90ms
+ Medel: 97ms
+64000
+ 289ms
+ 274ms
+ 274ms
+ 294ms
+ 286ms
+ 282ms
+ 272ms
+ 275ms
+ Medel: 280ms
+Qs
+1000
+ 0ms
+ 1ms
+ 0ms
+ 0ms
+ 0ms
+ 0ms
+ 0ms
+ 0ms
+ Medel: 0ms
+2000
+ 0ms
+ 0ms
+ 0ms
+ 0ms
+ 0ms
+ 0ms
+ 0ms
+ 0ms
+ Medel: 0ms
+4000
+ 1ms
+ 1ms
+ 1ms
+ 1ms
+ 1ms
+ 1ms
+ 1ms
+ 1ms
+ Medel: 1ms
+8000
+ 2ms
+ 2ms
+ 3ms
+ 2ms
+ 4ms
+ 2ms
+ 3ms
+ 3ms
+ Medel: 2ms
+16000
+ 6ms
+ 5ms
+ 5ms
+ 5ms
+ 5ms
+ 5ms
+ 4ms
+ 4ms
+ Medel: 4ms
+32000
+ 10ms
+ 10ms
+ 10ms
+ 12ms
+ 10ms
+ 10ms
+ 11ms
+ 10ms
+ Medel: 10ms
+64000
+ 26ms
+ 32ms
+ 29ms
+ 24ms
+ 26ms
+ 24ms
+ 25ms
+ 24ms
+ Medel: 26ms
