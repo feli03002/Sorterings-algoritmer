@@ -42,7 +42,7 @@ namespace Sorterings_algoritmer
                     SkapaLista(tallista, ant);
                     stopwatch.Reset();
                     stopwatch.Start();
-                    //Algoritmer.Bubblesort(tallista);
+                    Algoritmer.Bubblesort(tallista);
                     stopwatch.Stop();
                     Console.WriteLine("Längd på lista: " + ant + " Tid i millisekunder: " + stopwatch.ElapsedMilliseconds);
                     data.Add(" " + stopwatch.ElapsedMilliseconds + "ms");
@@ -69,7 +69,7 @@ namespace Sorterings_algoritmer
                     SkapaLista(tallista, ant);
                     stopwatch.Reset();
                     stopwatch.Start();
-                   // Algoritmer.Selectionsort(tallista);
+                    Algoritmer.Selectionsort(tallista);
                     stopwatch.Stop();
                     Console.WriteLine("Längd på lista: " + ant + " Tid i millisekunder: " + stopwatch.ElapsedMilliseconds);
                     data.Add(" " + stopwatch.ElapsedMilliseconds + "ms");
@@ -95,7 +95,7 @@ namespace Sorterings_algoritmer
                     SkapaLista(tallista, ant);
                     stopwatch.Reset();
                     stopwatch.Start();
-                   // Algoritmer.Mergesort(tallista);
+                    Algoritmer.Mergesort(tallista);
                     stopwatch.Stop();
                     Console.WriteLine("Längd på lista: " + ant + " Tid i millisekunder: " + stopwatch.ElapsedMilliseconds);
                     data.Add(" " + stopwatch.ElapsedMilliseconds + "ms");

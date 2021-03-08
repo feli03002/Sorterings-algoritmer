@@ -8,9 +8,9 @@ namespace Sorterings_algoritmer
 {
     class Algoritmer
     {
-        public static void Bubblesort(List<int> list)
+        public static void Bubblesort(List<int> data)
         {
-            int max = list.Count - 1;
+            int max = data.Count - 1;
 
             for (int i = 0; i < max; i++)
             {
@@ -18,52 +18,52 @@ namespace Sorterings_algoritmer
 
                 for (int j = 0; j < nrLeft; j++)
                 {
-                    if (list[j] > list[j + 1])
+                    if (data[j] > data[j + 1])
                     {
-                        int temp = list[j];
-                        list[j] = list[j + 1];
-                        list[j + 1] = temp;
+                        int temp = data[j];
+                        data[j] = data[j + 1];
+                        data[j + 1] = temp;
                     }
                 }
             }
         }
-        public static void Selectionsort(List<int> list)
+        public static void Selectionsort(List<int> data)
         {
-            for (int i = 0; i < list.Count - 1; i++)
+            for (int i = 0; i < data.Count - 1; i++)
             {
-                int minima = list[i];
+                int minima = data[i];
                 int mindex = i;
                 int temp;
 
-                for (int j = i + 1; j < list.Count; j++)
+                for (int j = i + 1; j < data.Count; j++)
                 {
-                    if (list[j] < minima)
-                    { minima = list[j]; mindex = j; }
+                    if (data[j] < minima)
+                    { minima = data[j]; mindex = j; }
                 }
 
-                if (list[mindex] != list[i])
+                if (data[mindex] != data[i])
                 {
-                    temp = list[i];
-                    list[i] = list[mindex];
-                    list[mindex] = temp;
+                    temp = data[i];
+                    data[i] = data[mindex];
+                    data[mindex] = temp;
                 }
 
             }
         }
-        public static List<int> Mergesort(List<int> list)
+        public static List<int> Mergesort(List<int> data)
         {
-            if (list.Count <= 1)
-                return list;
+            if (data.Count <= 1)
+                return data;
 
             List<int> left = new List<int>();
             List<int> right = new List<int>();
 
-            int middle = list.Count / 2;
+            int middle = data.Count / 2;
 
             for (int i = 0; i < middle; i++)
-                left.Add(list[i]);
-            for (int i = middle; i < list.Count; i++)
-                right.Add(list[i]);
+                left.Add(data[i]);
+            for (int i = middle; i < data.Count; i++)
+                right.Add(data[i]);
 
 
             left = Mergesort(left);
